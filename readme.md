@@ -1,0 +1,1 @@
+Esse repositorio contem os exercicios feitos para o Modulo D do curso do Senac Tramandaí
