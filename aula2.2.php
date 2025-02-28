@@ -24,5 +24,4 @@ echo"NEGATIVOS: " . $negativo . PHP_EOL;
 echo"PARES: " . $par . PHP_EOL;
 echo"IMPARES: " . $impar . PHP_EOL;
 
-
 ?>
