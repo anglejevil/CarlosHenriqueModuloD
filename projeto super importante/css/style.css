@@ -1,0 +1,117 @@
+/* Reset & base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+a {
+    color: rgb(133, 133, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #2b2b2b;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Manga list layout */
+.manga {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.manga img {
+    max-width: 180px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.manga h2 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.manga p {
+    line-height: 1.5;
+    color: #cccccc;
+}
+
+/* Buttons */
+button, .button-link {
+    background-color: rgb(133, 133, 255);
+    border: none;
+    color: #1a1a1a;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.2s ease;
+}
+
+button:hover, .button-link:hover {
+    background-color: rgb(133, 133, 255);
+}
+
+/* Form elements */
+form input[type="text"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Comments */
+.comment {
+    background: #2c2c2c;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.comment strong {
+    color:rgb(133, 133, 255);
+}
+
+.comment em {
+    color: #888;
+    font-size: 0.9em;
+}
