@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 <!-- permite adicionar manga ao banco de dados -->
+ <link rel="stylesheet" href="css/style.css">
 <h2>Add Manga</h2>
 <form method="post" enctype="multipart/form-data">
     <input type="text" name="title" placeholder="Title" required><br>

@@ -6,12 +6,14 @@ $mangas = $pdo->query("SELECT * FROM mangas")->fetchAll();
 ?>
 <!-- adição, remoção e edição de manga -->
 <h2>Mangas</h2>
+<a href="dashboard.php">Back to Admin Panel</a> |
 <a href="add_manga.php">Add New Manga</a>
 
 <table border="1">
     <tr>
         <th>Title</th><th>Description</th><th>Image</th><th>Actions</th>
     </tr>
+    <link rel="stylesheet" href="css/style.css">
     <?php foreach ($mangas as $manga): ?>
         <tr>
             <td><?= htmlspecialchars($manga['title']) ?></td>

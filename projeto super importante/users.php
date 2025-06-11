@@ -12,6 +12,8 @@ $users = $pdo->query("SELECT * FROM users")->fetchAll();
 ?>
 <!-- registro de usuario e edição de usuarios existentes -->
 <h2>Users</h2>
+<link rel="stylesheet" href="css/style.css">
+<a href="dashboard.php">Back to Admin Panel</a>
 <a href="register.php">Add New User</a>
 <table border="1">
     <tr>

@@ -42,6 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 <h2>Edit Manga</h2>
+<link rel="stylesheet" href="css/style.css">
 <form method="post" enctype="multipart/form-data">
     <label>Title:</label><br>
     <input type="text" name="title" value="<?= htmlspecialchars($manga['title']) ?>" required><br><br>
